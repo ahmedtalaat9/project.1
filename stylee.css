@@ -1,0 +1,57 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-image: url(sportcar.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.menu-bar
+{
+    text-align: center;
+}
+
+.menu-bar ul
+{
+    background-color: blueviolet;
+    display:inline-flex;
+    list-style: none;
+    color: rgb(22, 1, 41);
+}
+
+.menu-bar ul li
+{
+    width: 140px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: bisque;
+}
+
+.menu-bar ul li:hover
+{
+    background-color: rgb(47, 3, 89);
+    border-radius: 2px;
+}
+
+.menu-bar .fa
+{
+    margin-right: 6px;
+}
+
+.frame
+{
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
